@@ -1716,3 +1716,8 @@ p {
         padding: 0px 10px;
     }
 }
+@media screen and (max-width:360px) {
+    .drop-down-menu {
+        width: 156%!important;
+    }
+}
