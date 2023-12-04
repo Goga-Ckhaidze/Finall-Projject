@@ -1398,6 +1398,9 @@ p {
 .row {
     margin: 0;
 }
+.padding-2 {
+    padding: 0px 18px;
+}
 
 
 @media screen and (max-width: 1500px) {
