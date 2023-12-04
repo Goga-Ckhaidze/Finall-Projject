@@ -120,7 +120,77 @@ rightK.addEventListener('click', () =>{
     wholeDivK.scrollLeft += 282;
 
 })
-var countdownDate = new Date("Nov 30, 2023 00:00:00").getTime()
+let leftBA = document.querySelector('.left-b-a');
+let rightBA = document.querySelector('.righttt-b-a');
+let wholeDivBA = document.querySelector('.divi-divadze-divi-b-a');
+
+leftBA.addEventListener('click', () =>{
+
+    wholeDivBA.scrollLeft += -282;
+
+})
+rightBA.addEventListener('click', () =>{
+
+    wholeDivBA.scrollLeft += 282;
+
+})
+let leftBB = document.querySelector('.left-b-b');
+let rightBB = document.querySelector('.righttt-b-b');
+let wholeDivBB = document.querySelector('.divi-divadze-divi-b-b');
+
+leftBB.addEventListener('click', () =>{
+
+    wholeDivBB.scrollLeft += -282;
+
+})
+rightBB.addEventListener('click', () =>{
+
+    wholeDivBB.scrollLeft += 282;
+
+})
+let leftBC = document.querySelector('.left-b-c');
+let rightBC = document.querySelector('.righttt-b-c');
+let wholeDivBC = document.querySelector('.divi-divadze-divi-b-c');
+
+leftBC.addEventListener('click', () =>{
+
+    wholeDivBC.scrollLeft += -282;
+
+})
+rightBC.addEventListener('click', () =>{
+
+    wholeDivBC.scrollLeft += 282;
+
+})
+let leftBD = document.querySelector('.left-b-d');
+let rightBD = document.querySelector('.righttt-b-d');
+let wholeDivBD = document.querySelector('.divi-divadze-divi-b-d');
+
+leftBD.addEventListener('click', () =>{
+
+    wholeDivBD.scrollLeft += -282;
+
+})
+rightBD.addEventListener('click', () =>{
+
+    wholeDivBD.scrollLeft += 282;
+
+})
+let leftBE = document.querySelector('.left-b-e');
+let rightBE = document.querySelector('.righttt-b-e');
+let wholeDivBE = document.querySelector('.divi-divadze-divi-b-e');
+
+leftBE.addEventListener('click', () =>{
+
+    wholeDivBE.scrollLeft += -282;
+
+})
+rightBE.addEventListener('click', () =>{
+
+    wholeDivBE.scrollLeft += 282;
+
+})
+var countdownDate = new Date("Dec 31, 2023 00:00:00").getTime()
 var x = setInterval(function(){
   var now = new Date().getTime()
   var distance = countdownDate - now
@@ -129,18 +199,22 @@ var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 var seconds = Math.floor((distance % (1000 * 60)) / 1000);
  
+
+
+if(distance <= 0){
+  clearInterval(x)
+  
+  days = 0;
+  hours = 0;
+  minutes = 0;
+  seconds = 0;
+
+}
+
 document.querySelector('.random-name-h2').innerHTML = days
 document.querySelector('.random-name-h3').innerHTML = hours
 document.querySelector('.random-name-h4').innerHTML = minutes
 document.querySelector('.gray-h2').innerHTML = seconds
-
-if(distance <= 0){
-  clearInterval(x)
-
-
-}
-
-
 
 
 
