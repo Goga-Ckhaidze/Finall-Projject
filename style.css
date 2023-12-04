@@ -2,10 +2,12 @@ html {
     scroll-behavior: smooth;
 }
 
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans Georgian', sans-serif;
 }
 
 .container-1400 {
@@ -739,7 +741,7 @@ transition: .5s;
     text-align: center;
     color: grey;
     font-size: 17.5px;
-    padding-top: 7.5px;
+    padding: 15px 0px;
 }
 .section-9-reg-div {
     padding: 0px 75px;
@@ -761,7 +763,7 @@ transition: .5s;
     display: block;
 }
 .padding-top-10 {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 .footer-a {
     padding-top: 12.5px;
@@ -832,7 +834,7 @@ p {
 .drop-down-div-child {
     display: none;
     max-width: 100vh;
-    padding: 100px;
+    padding: 25px;
     position: absolute;
     right: -100vh;
     top: 0px;
@@ -841,7 +843,7 @@ p {
 .drop-down-div3-child {
     display: none;
     max-width: 100vh;
-    padding: 100px;
+    padding: 25px;
     position: absolute;
     right: -100vh;
     top: 0px;
@@ -850,7 +852,7 @@ p {
 .drop-down-div4-child {
     display: none;
     max-width: 100vh;
-    padding: 100px;
+    padding: 25px;
     position: absolute;
     right: -100vh;
     top: 0px;
@@ -859,7 +861,7 @@ p {
 .drop-down-div5-child {
     display: none;
     max-width: 100vh;
-    padding: 100px;
+    padding: 25px;
     position: absolute;
     right: -100vh;
     top: 0px;
@@ -868,7 +870,7 @@ p {
 .drop-down-div6-child {
     display: none;
     max-width: 100vh;
-    padding: 100px;
+    padding: 25px;
     position: absolute;
     right: -100vh;
     top: 0px;
@@ -909,10 +911,100 @@ p {
     cursor: pointer;
     z-index: 100000;
 }
+.left-b-a {
+    position: absolute;
+    left: 10px;
+    top: 75px;
+    color: royalblue;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 100000;
+}
+.left-b-b {
+    position: absolute;
+    left: 10px;
+    top: 75px;
+    color: royalblue;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 100000;
+}
+.left-b-c {
+    position: absolute;
+    left: 10px;
+    top: 75px;
+    color: royalblue;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 100000;
+}
+.left-b-d {
+    position: absolute;
+    left: 10px;
+    top: 75px;
+    color: royalblue;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 100000;
+}
+.left-b-e {
+    position: absolute;
+    left: 10px;
+    top: 75px;
+    color: royalblue;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 100000;
+}
 .righttt {
     position: absolute;
     right: 10px;
     top: 225px;
+    color: royalblue;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 100000;
+}
+.righttt-b-a {
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    color: royalblue;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 100000;
+}
+.righttt-b-b {
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    color: royalblue;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 100000;
+}
+.righttt-b-c {
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    color: royalblue;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 100000;
+}
+.righttt-b-d {
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    color: royalblue;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 100000;
+}
+.righttt-b-e {
+    position: absolute;
+    right: 10px;
+    top: 75px;
     color: royalblue;
     font-size: 30px;
     cursor: pointer;
@@ -1047,6 +1139,11 @@ p {
     overflow: hidden;
     scroll-behavior: smooth;
 }
+.divi-divadze-divi-b-a {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
 .divi-divadze-divi-b {
     display: flex;
     overflow: hidden;
@@ -1058,6 +1155,26 @@ p {
     scroll-behavior: smooth;
 }
 .divi-divadze-divi-e {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.divi-divadze-divi-b-b {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.divi-divadze-divi-b-c {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.divi-divadze-divi-b-d {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.divi-divadze-divi-b-e {
     display: flex;
     overflow: hidden;
     scroll-behavior: smooth;
@@ -1078,6 +1195,21 @@ p {
     position: relative;
 }
 .div-for-left-right-e {
+    position: relative;
+}
+.div-for-left-right-b-a {
+    position: relative;
+}
+.div-for-left-right-b-b {
+    position: relative;
+}
+.div-for-left-right-b-c {
+    position: relative;
+}
+.div-for-left-right-b-d {
+    position: relative;
+}
+.div-for-left-right-b-e {
     position: relative;
 }
 .secondHTML-mini-TITLE {
@@ -1353,7 +1485,7 @@ p {
 @media screen and (max-width: 1450px) {
     
     .footer-section {
-        padding: 0px 15px;
+        padding: 15px 0px;
     }
 
 }
@@ -1448,5 +1580,136 @@ p {
 @media  screen and (max-width: 1428px) {
     .user-icon-div:hover .drop-down-user-icon {
         left: -180px;
+    }
+}
+@media screen and (max-width: 1059px)  {
+    .l {
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 930px) {
+    .V {
+        min-width: 50%!important;
+        height: 400px;
+    }
+    .drop-down-div-child {
+        max-width: 80vh!important;
+        right: -80vh!important;
+    }
+    .drop-down-div3-child {
+        max-width: 80vh!important;
+        right: -80vh!important;
+    }
+    .drop-down-div4-child {
+        max-width: 80vh!important;
+        right: -80vh!important;
+    }
+    .drop-down-div5-child {
+        max-width: 80vh!important;
+        right: -80vh!important;
+    }
+    .drop-down-div6-child {
+        max-width: 80vh!important;
+        right: -80vh!important;
+    }
+}
+@media screen and (max-width: 787px) {
+    .drop-down-div-child {
+        max-width: 70vh!important;
+        right: -70vh!important;
+    }
+    .drop-down-div3-child {
+        max-width: 80vh!important;
+        right: -80vh!important;
+    }
+    .drop-down-div4-child {
+        max-width: 80vh!important;
+        right: -80vh!important;
+    }
+    .drop-down-div5-child {
+        max-width: 80vh!important;
+        right: -80vh!important;
+    }
+    .drop-down-div6-child {
+        max-width: 80vh!important;
+        right: -80vh!important;
+    }
+}
+@media  screen and (max-width: 722px) {
+    .V {
+        min-width: 100%!important;
+    }
+    .drop-down-div-child {
+        max-width: 50vh!important;
+        right: -50vh!important;
+    }
+    .drop-down-div3-child {
+        max-width: 50vh!important;
+        right: -50vh!important;
+    }
+    .drop-down-div4-child {
+        max-width: 50vh!important;
+        right: -50vh!important;
+    }
+    .drop-down-div5-child {
+        max-width: 50vh!important;
+        right: -50vh!important;
+    }
+    .drop-down-div6-child {
+        max-width: 50vh!important;
+        right: -50vh!important;
+    }
+}
+
+@media screen and (max-width: 528px) {
+    .drop-down-menu {
+        width: 170%!important;
+    }
+    .drop-down-div-child {
+        left: 10px!important;
+        top: 72px!important;
+        width: 97%!important;
+        z-index: 89032789432978234798978239783529875239873259782350987890235;
+    }
+    .drop-down-div3-child {
+        left: 10px!important;
+        top: 72px!important;
+        width: 97%!important;
+        z-index: 89032789432978234798978239783529875239873259782350987890235;
+    }
+    .drop-down-div4-child {
+        left: 10px!important;
+        top: 72px!important;
+        width: 97%!important;
+        z-index: 89032789432978234798978239783529875239873259782350987890235;
+    }
+    .drop-down-div5-child {
+        left: 10px!important;
+        top: 72px!important;
+        width: 97%!important;
+        z-index: 89032789432978234798978239783529875239873259782350987890235;
+    }
+    .drop-down-div6-child {
+        left: 10px!important;
+        top: 72px!important;
+        width: 97%!important;
+        z-index: 89032789432978234798978239783529875239873259782350987890235;
+    }
+}
+
+@media screen and (max-width:1336px) {
+    .padding-2 {
+        padding: 0px 15px;
+    }
+}
+@media screen and (max-width:1312px) {
+    .padding-2 {
+        padding: 0px 12.5px;
+    }
+}
+@media screen and (max-width:1282px) {
+    .padding-2 {
+        padding: 0px 10px;
     }
 }
